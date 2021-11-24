@@ -41,7 +41,6 @@ resource "intersight_hyperflex_cluster_profile" "hyperflex_cluster_profile1" {
     vlan_id = 27
   }
   mgmt_ip_address    = "10.225.68.237"
-  replication = 2
   mac_address_prefix = "00:25:B5:D5"
   mgmt_platform      = "EDGE"
   description        = "This is hyperflex cluster profile"
